@@ -9,9 +9,7 @@ class HealthIcon extends FlxSprite
 	 */
 	public var sprTracker:FlxSprite;
 
-	public function new(char:String = 'bf', isPlayer:Bool = false)
-	{
-		super();
+	public function changeCharacter(char:String){
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 
 		animation.add('bf', [0, 1], 0, false, isPlayer);
@@ -42,19 +40,19 @@ class HealthIcon extends FlxSprite
 		//animation.add('hollow-noke', [42, 43], 0, false, isPlayer);
 		//animation.add('fake-agressive', [30, 31], 0, false, isPlayer);
 		//animation.add('axel', [10, 11], 0, false, isPlayer);
+
 		if(animation.getByName(char)!=null)
 			animation.play(char);
 		else
 			animation.play("face");
+	}
+	public function new(char:String = 'bf', isPlayer:Bool = false)
+	{
+		super();
+		flipX=isPlayer;
+		changeCharacter(char);
 
 		scrollFactor.set();
-	}
-
-	public function changeCharacter(char:String){
-		if(animation.getByName(char)!=null)
-			animation.play(char);
-		else
-			animation.play("face");
 	}
 
 	override function update(elapsed:Float)

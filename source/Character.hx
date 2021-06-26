@@ -693,6 +693,9 @@ class Character extends FlxSprite
 
 	override function update(elapsed:Float)
 	{
+		if(holding)
+			animation.curAnim.curFrame=0;
+
 		if (!isPlayer)
 		{
 			if(animation.getByName('${animation.curAnim.name}Hold')!=null){
