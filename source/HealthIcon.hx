@@ -15,8 +15,8 @@ class HealthIcon extends FlxSprite
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 
 		animation.add('bf', [0, 1], 0, false, isPlayer);
-		animation.add('bf-car', [0, 1], 0, false, isPlayer);
-		animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
+		animation.add('bf-car', [24, 25], 0, false, isPlayer);
+		animation.add('bf-christmas', [26, 29], 0, false, isPlayer);
 		animation.add('spooky', [2, 3], 0, false, isPlayer);
 		animation.add('pico', [4, 5], 0, false, isPlayer);
 		animation.add('mom', [6, 7], 0, false, isPlayer);
@@ -26,7 +26,6 @@ class HealthIcon extends FlxSprite
 		animation.add('dad', [12, 13], 0, false, isPlayer);
 		animation.add('bf-old', [14, 15], 0, false, isPlayer);
 		animation.add('gf', [16], 0, false, isPlayer);
-		animation.add('lizzy', [16], 0, false, isPlayer);
 		animation.add('parents-christmas', [17], 0, false, isPlayer);
 		animation.add('monster', [19, 20], 0, false, isPlayer);
 		animation.add('monster-christmas', [19, 20], 0, false, isPlayer);
@@ -34,7 +33,15 @@ class HealthIcon extends FlxSprite
 		animation.add('senpai', [22, 22], 0, false, isPlayer);
 		animation.add('senpai-angry', [22, 22], 0, false, isPlayer);
 		animation.add('spirit', [23, 23], 0, false, isPlayer);
-		animation.add('bf-neb', [24,25], 0, false, isPlayer);
+		//animation.add('fake-ink', [30, 31], 0, false, isPlayer);
+		//animation.add('brightside', [35,36], 0, false, isPlayer);
+		//animation.add('flexy', [37, 38], 0, false, isPlayer);
+		//animation.add('beta-ink', [14, 15], 0, false, isPlayer);
+		//animation.add('noke', [39, 41], 0, false, isPlayer);
+		//animation.add('angry-noke', [40, 41], 0, false, isPlayer);
+		//animation.add('hollow-noke', [42, 43], 0, false, isPlayer);
+		//animation.add('fake-agressive', [30, 31], 0, false, isPlayer);
+		//animation.add('axel', [10, 11], 0, false, isPlayer);
 		if(animation.getByName(char)!=null)
 			animation.play(char);
 		else

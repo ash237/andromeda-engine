@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="InkGitch.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FakeInk_Down0000" x="0" y="0" width="534" height="461" frameX="0" frameY="-4" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0001" x="534" y="0" width="526" height="453" frameX="-5" frameY="-6" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0002" x="0" y="0" width="534" height="461" frameX="0" frameY="-4" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0003" x="534" y="0" width="526" height="453" frameX="-5" frameY="-6" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0004" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0005" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0006" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0007" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0008" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0009" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0010" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0011" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0012" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0013" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Down0014" x="1060" y="0" width="511" height="466" frameX="-12" frameY="0" frameWidth="534" frameHeight="880"/>
+	<SubTexture name="FakeInk_Idle0000" x="1571" y="0" width="497" height="481" frameX="0" frameY="-5" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0001" x="1571" y="0" width="497" height="481" frameX="0" frameY="-5" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0002" x="2068" y="0" width="485" height="485" frameX="-7" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0003" x="2068" y="0" width="485" height="485" frameX="-7" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0004" x="2553" y="0" width="468" height="487" frameX="-20" frameY="0" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0005" x="2553" y="0" width="468" height="487" frameX="-20" frameY="0" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0006" x="3021" y="0" width="465" height="486" frameX="-28" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0007" x="3021" y="0" width="465" height="486" frameX="-28" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0008" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0009" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0010" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0011" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0012" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0013" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Idle0014" x="3486" y="0" width="456" height="486" frameX="-32" frameY="-1" frameWidth="497" frameHeight="587"/>
+	<SubTexture name="FakeInk_Left0000" x="0" y="487" width="379" height="517"/>
+	<SubTexture name="FakeInk_Left0001" x="379" y="487" width="362" height="499" frameX="-3" frameY="-18" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0002" x="0" y="487" width="379" height="517"/>
+	<SubTexture name="FakeInk_Left0003" x="379" y="487" width="362" height="499" frameX="-3" frameY="-18" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0004" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0005" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0006" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0007" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0008" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0009" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0010" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0011" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0012" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0013" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Left0014" x="741" y="487" width="355" height="509" frameX="-16" frameY="-8" frameWidth="379" frameHeight="517"/>
+	<SubTexture name="FakeInk_Right0000" x="1096" y="487" width="500" height="479" frameX="-6" frameY="-5" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0001" x="1596" y="487" width="511" height="484"/>
+	<SubTexture name="FakeInk_Right0002" x="2107" y="487" width="492" height="470" frameX="-14" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0003" x="2599" y="487" width="505" height="479" frameX="-6" frameY="-5" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0004" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0005" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0006" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0007" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0008" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0009" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0010" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0011" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0012" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0013" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Right0014" x="3104" y="487" width="462" height="470" frameX="-41" frameY="-14" frameWidth="511" frameHeight="484"/>
+	<SubTexture name="FakeInk_Up0000" x="3566" y="487" width="402" height="543" frameX="-8" frameY="-3" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0001" x="0" y="1030" width="401" height="535" frameX="-8" frameY="-4" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0002" x="3566" y="487" width="402" height="543" frameX="-8" frameY="-3" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0003" x="0" y="1030" width="401" height="535" frameX="-8" frameY="-4" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0004" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0005" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0006" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0007" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0008" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0009" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0010" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0011" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0012" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0013" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+	<SubTexture name="FakeInk_Up0014" x="401" y="1030" width="404" height="538" frameX="0" frameY="0" frameWidth="410" frameHeight="546"/>
+</TextureAtlas>

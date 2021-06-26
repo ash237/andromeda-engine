@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sandplanet.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AxDownNote0000" x="0" y="0" width="892" height="1076" frameX="0" frameY="-34" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0001" x="0" y="0" width="892" height="1076" frameX="0" frameY="-34" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0002" x="892" y="0" width="843" height="1074" frameX="0" frameY="-35" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0003" x="892" y="0" width="843" height="1074" frameX="0" frameY="-35" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0004" x="1735" y="0" width="874" height="1109" frameX="0" frameY="0" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0005" x="1735" y="0" width="874" height="1109" frameX="0" frameY="0" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0006" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0007" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0008" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0009" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0010" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0011" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0012" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0013" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxDownNote0014" x="2609" y="0" width="851" height="1082" frameX="0" frameY="-27" frameWidth="892" frameHeight="1110"/>
+	<SubTexture name="AxIdle0000" x="3460" y="0" width="776" height="1197" frameX="-3" frameY="-21" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0001" x="3460" y="0" width="776" height="1197" frameX="-3" frameY="-21" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0002" x="4236" y="0" width="803" height="1218"/>
+	<SubTexture name="AxIdle0003" x="4236" y="0" width="803" height="1218"/>
+	<SubTexture name="AxIdle0004" x="5039" y="0" width="779" height="1210" frameX="-3" frameY="-8" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0005" x="5039" y="0" width="779" height="1210" frameX="-3" frameY="-8" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0006" x="5818" y="0" width="753" height="1199" frameX="-7" frameY="-19" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0007" x="5818" y="0" width="753" height="1199" frameX="-7" frameY="-19" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0008" x="6571" y="0" width="734" height="1194" frameX="-10" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0009" x="6571" y="0" width="734" height="1194" frameX="-10" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0010" x="7305" y="0" width="710" height="1183" frameX="-14" frameY="-34" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0011" x="7305" y="0" width="710" height="1183" frameX="-14" frameY="-34" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0012" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0013" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0014" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0015" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0016" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0017" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxIdle0018" x="0" y="1218" width="728" height="1193" frameX="0" frameY="-24" frameWidth="803" frameHeight="1218"/>
+	<SubTexture name="AxLeftNote0000" x="728" y="1218" width="1074" height="1162" frameX="0" frameY="0" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0001" x="728" y="1218" width="1074" height="1162" frameX="0" frameY="0" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0002" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0003" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0004" x="2836" y="1218" width="1043" height="1140" frameX="-36" frameY="-22" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0005" x="2836" y="1218" width="1043" height="1140" frameX="-36" frameY="-22" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0006" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0007" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0008" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0009" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0010" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0011" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0012" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0013" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxLeftNote0014" x="1802" y="1218" width="1034" height="1125" frameX="-39" frameY="-37" frameWidth="1079" frameHeight="1162"/>
+	<SubTexture name="AxRightNote0000" x="3879" y="1218" width="917" height="1094" frameX="0" frameY="0" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0001" x="3879" y="1218" width="917" height="1094" frameX="0" frameY="0" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0002" x="4796" y="1218" width="897" height="1056" frameX="-7" frameY="-38" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0003" x="4796" y="1218" width="897" height="1056" frameX="-7" frameY="-38" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0004" x="5693" y="1218" width="939" height="1036" frameX="-7" frameY="-58" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0005" x="5693" y="1218" width="939" height="1036" frameX="-7" frameY="-58" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0006" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0007" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0008" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0009" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0010" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0011" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0012" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0013" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxRightNote0014" x="6632" y="1218" width="931" height="1021" frameX="-7" frameY="-73" frameWidth="946" frameHeight="1094"/>
+	<SubTexture name="AxUpNote0000" x="0" y="2411" width="748" height="1231"/>
+	<SubTexture name="AxUpNote0001" x="0" y="2411" width="748" height="1231"/>
+	<SubTexture name="AxUpNote0002" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0003" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0004" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0005" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0006" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0007" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0008" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0009" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0010" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0011" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0012" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0013" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+	<SubTexture name="AxUpNote0014" x="748" y="2411" width="703" height="1175" frameX="-38" frameY="-55" frameWidth="748" frameHeight="1231"/>
+</TextureAtlas>

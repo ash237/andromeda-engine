@@ -406,25 +406,176 @@ class Character extends FlxSprite
 				loadOffsets();
 
 				playAnim('idle');
-			case 'kapi':
-				frames = Paths.getSparrowAtlas('characters/kapi');
-				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
-				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
-				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24, false);
-				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
-				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
-
-				animation.addByIndices('singUPHold', 'Dad Sing Note UP',[8,9,10],"", 24);
-				animation.addByIndices('singRIGHTHold', 'Dad Sing Note RIGHT',[8,9,10],"", 24);
-				animation.addByIndices('singDOWNHold', 'Dad Sing Note DOWN',[8,9,10],"", 24);
-				animation.addByIndices('singLEFTHold', 'Dad Sing Note LEFT',[8,9,10],"", 24);
-
-				animation.addByPrefix('meow', 'Dad meow', 24, false);
-				animation.addByPrefix('stare', 'Dad stare', 24, false);
+				
+			case 'fake-ink':
+				tex = Paths.getSparrowAtlas('characters/InkGitch');
+				frames = tex;
+				animation.addByPrefix('idle', "FakeInk_Idle", 24);
+				animation.addByPrefix('singUP', 'FakeInk_Up', 24, false);
+				animation.addByPrefix('singDOWN', 'FakeInk_Down', 24, false);
+				if (isPlayer)
+				{
+					animation.addByPrefix('singLEFT', 'FakeInk_Right', 24, false);
+					animation.addByPrefix('singRIGHT', 'FakeInk_Left', 24, false);
+				}
+				else
+				{
+					// Need to be flipped! REDO THIS LATER!
+					animation.addByPrefix('singLEFT', 'FakeInk_Left', 24, false);
+					animation.addByPrefix('singRIGHT', 'FakeInk_Right', 24, false);
+				}
 
 				loadOffsets();
 
-				playAnim("idle");
+				playAnim('idle');
+
+			//case 'brightside':
+			//	tex = Paths.getSparrowAtlas('characters/BrightsideMask');
+			//	frames = tex;
+			//	animation.addByPrefix('idle', 'BrightIdle', 24);
+			//	animation.addByPrefix('singUP', 'BrightUp', 24);
+			//	animation.addByPrefix('singRIGHT', 'BrightRight', 24);
+			//	animation.addByPrefix('singDOWN', 'BrightDown', 24);
+			//	animation.addByPrefix('singLEFT', 'BrightLeft', 24);
+	
+			//	setGraphicSize(Std.int(width * .40));
+			//	updateHitbox();
+
+			//	loadOffsets();
+
+			//	playAnim('idle');
+			
+			//	flipX = true;
+
+			//case 'flexy':
+			//	frames = Paths.getSparrowAtlas('characters/flexy_assets');
+			//	animation.addByPrefix('idle', 'flexy idle', 24, false);
+			//	animation.addByPrefix('singUP', 'flexy up note', 24, false);
+			//	animation.addByPrefix('singDOWN', 'flexy down note', 24, false);
+			//	animation.addByPrefix('singLEFT', 'flexy left note', 24, false);
+			//	animation.addByPrefix('singRIGHT', 'flexy right note', 24, false);
+
+			//	loadOffsets();
+
+			//	playAnim('idle');
+
+			//case 'beta-ink':
+			//	var tex = Paths.getSparrowAtlas('characters/BetaInk');
+			//	frames = tex;
+			//	animation.addByPrefix('idle', 'BF idle dance', 24, false);
+			//	animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
+			//	animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
+			//	animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
+			//	animation.addByPrefix('singDOWN', 'BF NOTE DOWN0', 24, false);
+			//	animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS', 24, false);
+			//	animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS', 24, false);
+			//	animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
+			//	animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
+			//	animation.addByPrefix('hey', 'BF HEY', 24, false);
+		
+			//	animation.addByPrefix('firstDeath', "BF dies", 24, false);
+			//	animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
+			//	animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
+		
+			//	animation.addByPrefix('scared', 'BF idle shaking', 24);
+
+			//	loadOffsets();
+
+			//	playAnim('idle');
+			
+			//	flipX = true;
+
+			//case 'noke':
+			//	tex = Paths.getSparrowAtlas('characters/noke');
+			//	frames = tex;
+			//	animation.addByPrefix('idle', 'Idle', 24);
+			//	animation.addByPrefix('singUP', 'Sing Up', 24);
+			//	animation.addByPrefix('singRIGHT', 'Sing Right', 24);
+			//	animation.addByPrefix('singDOWN', 'Sing Down', 24);
+			//	animation.addByPrefix('singLEFT', 'Sing Left', 24);
+
+			//	loadOffsets();
+
+			//	playAnim('idle');
+			
+			//	flipX = true;
+
+			//case 'angry-noke':
+			//	tex = Paths.getSparrowAtlas('characters/angrynoke');
+			//	frames = tex;
+			//	animation.addByPrefix('idle', 'Idle', 24);
+			//	animation.addByPrefix('singUP', 'Sing Up', 24);
+			//	animation.addByPrefix('singRIGHT', 'Sing Right', 24);
+			//	animation.addByPrefix('singDOWN', 'Sing Down', 24);
+			//	animation.addByPrefix('singLEFT', 'Sing Left', 24);
+	
+			//	loadOffsets();
+	
+			//	playAnim('idle');
+				
+			//	flipX = true;
+
+			//case 'hollow-noke':
+			//	tex = Paths.getSparrowAtlas('characters/hollownoke');
+			//	frames = tex;
+			//	animation.addByPrefix('idle', 'Idle', 24);
+			//	animation.addByPrefix('singUP', 'Sing Up', 24);
+			//	animation.addByPrefix('singRIGHT', 'Sing Right', 24);
+			//	animation.addByPrefix('singDOWN', 'Sing Down', 24);
+			//	animation.addByPrefix('singLEFT', 'Sing Left', 24);
+		
+			//	loadOffsets();
+		
+			//	playAnim('idle');
+					
+			//	flipX = true;
+
+			//case 'fake-agressive':
+				//tex = Paths.getSparrowAtlas('character/SICKO_MODE');
+				//frames = tex;
+				//animation.addByPrefix('idle', "FakeInk_Idle", 24);
+				//animation.addByPrefix('singUP', 'FakeInk_Up', 24, false);
+				//animation.addByPrefix('singDOWN', 'FakeInk_Down', 24, false);
+				//if (isPlayer)
+				//{
+			//		animation.addByPrefix('singLEFT', 'FakeInk_Right', 24, false);
+			//		animation.addByPrefix('singRIGHT', 'FakeInk_Left', 24, false);
+			//	}
+			//	else
+			//	{
+			//		// Need to be flipped! REDO THIS LATER!
+			//		animation.addByPrefix('singLEFT', 'FakeInk_Left', 24, false);
+			//		animation.addByPrefix('singRIGHT', 'FakeInk_Right', 24, false);
+			//	}
+
+			//	loadOffsets();
+		
+			//	playAnim('idle');
+					
+			//	flipX = true;
+
+			//case 'axel':
+				// DAD ANIMATION LOADING CODE
+				//tex = Paths.getSparrowAtlas('character/Sandplanet');
+				//frames = tex;
+				//animation.addByPrefix('idle', 'AxIdle', 24);
+				//animation.addByPrefix('singUP', 'AxUpNote', 24);
+				//animation.addByPrefix('singRIGHT', 'AxRightNote', 24);
+				//animation.addByPrefix('singDOWN', 'AxDownNote', 24);
+				//animation.addByPrefix('singLEFT', 'AxLeftNote', 24);
+
+				//setGraphicSize(Std.int(width * .50));
+
+				//loadOffsets();
+		
+				//playAnim('idle');
+					
+				//flipX = true;
+			
+
+
+
+
 		default:
 			var xmlData:String = '';
 			/*if(Cache.xmlData[curCharacter]!=null){
