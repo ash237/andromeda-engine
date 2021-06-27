@@ -88,17 +88,22 @@ class Note extends FlxSprite
 				updateHitbox();
 
 			default:
-				frames = Paths.getSparrowAtlas('NOTE_assets');
-
+				switch (noteType) {
+					case 'gem':
+						frames = Paths.getSparrowAtlas('NOTE_assets_gem', 'shared');
+						animation.addByPrefix('gemgreenScroll', 'gemgreen0');
+						animation.addByPrefix('gemredScroll', 'gemred0');
+						animation.addByPrefix('gemblueScroll', 'gemblue0');
+						animation.addByPrefix('gempurpleScroll', 'gempurple0');
+					default:
+						frames = Paths.getSparrowAtlas('NOTE_assets');
+				}
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
 				animation.addByPrefix('blueScroll', 'blue0');
 				animation.addByPrefix('purpleScroll', 'purple0');
 
-				animation.addByPrefix('gemgreenScroll', 'gemgreen0');
-				animation.addByPrefix('gemredScroll', 'gemred0');
-				animation.addByPrefix('gemblueScroll', 'gemblue0');
-				animation.addByPrefix('gempurpleScroll', 'gempurple0');
+				
 
 				animation.addByPrefix('purpleholdend', 'pruple end hold');
 				animation.addByPrefix('greenholdend', 'green hold end');
