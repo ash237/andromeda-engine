@@ -28,7 +28,7 @@ class Note extends FlxSprite
 	public var isSustainNote:Bool = false;
 	public var rawNoteData:Int = 0; // for charting shit and thats it LOL
 	public var holdParent:Bool=false;
-	public var noteType:Int = 0;
+	public var noteType:String = 'normal';
 	public var beingCharted:Bool=false;
 
 	public var noteScore:Float = 1;
@@ -39,13 +39,14 @@ class Note extends FlxSprite
 	public static var BLUE_NOTE:Int = 1;
 	public static var RED_NOTE:Int = 3;
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteType:String = 'normal')
 	{
 		super();
 
 		if (prevNote == null)
 			prevNote = this;
 
+		this.noteType = noteType;
 		this.prevNote = prevNote;
 		isSustainNote = sustainNote;
 
@@ -94,6 +95,11 @@ class Note extends FlxSprite
 				animation.addByPrefix('blueScroll', 'blue0');
 				animation.addByPrefix('purpleScroll', 'purple0');
 
+				animation.addByPrefix('gemgreenScroll', 'gemgreen0');
+				animation.addByPrefix('gemredScroll', 'gemred0');
+				animation.addByPrefix('gemblueScroll', 'gemblue0');
+				animation.addByPrefix('gempurpleScroll', 'gempurple0');
+
 				animation.addByPrefix('purpleholdend', 'pruple end hold');
 				animation.addByPrefix('greenholdend', 'green hold end');
 				animation.addByPrefix('redholdend', 'red hold end');
@@ -108,23 +114,40 @@ class Note extends FlxSprite
 				updateHitbox();
 				antialiasing = true;
 		}
-
-		switch (noteData)
-		{
-			case 0:
-				x += swagWidth * 0;
-				animation.play('purpleScroll');
-			case 1:
-				x += swagWidth * 1;
-				animation.play('blueScroll');
-			case 2:
-				x += swagWidth * 2;
-				animation.play('greenScroll');
-			case 3:
-				x += swagWidth * 3;
-				animation.play('redScroll');
+		switch (noteType) {
+			case 'gem':
+				switch (noteData)
+				{
+					case 0:
+						x += swagWidth * 0;
+						animation.play('gempurpleScroll');
+					case 1:
+						x += swagWidth * 1;
+						animation.play('gemblueScroll');
+					case 2:
+						x += swagWidth * 2;
+						animation.play('gemgreenScroll');
+					case 3:
+						x += swagWidth * 3;
+						animation.play('gemredScroll');
+				}
+			default:
+				switch (noteData)
+				{
+					case 0:
+						x += swagWidth * 0;
+						animation.play('purpleScroll');
+					case 1:
+						x += swagWidth * 1;
+						animation.play('blueScroll');
+					case 2:
+						x += swagWidth * 2;
+						animation.play('greenScroll');
+					case 3:
+						x += swagWidth * 3;
+						animation.play('redScroll');
+				}
 		}
-
 		// trace(prevNote);
 
 		if (isSustainNote && prevNote != null)

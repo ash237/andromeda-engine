@@ -735,9 +735,9 @@ class PlayState extends MusicBeatState
 		                  stageCurtains.active = false;
 
 		                  add(stageCurtains);
-										}else{
-											curStage='custom';
-										}
+					}else{
+						curStage='custom';
+					}
 		          }
               }
 
@@ -1507,8 +1507,8 @@ class PlayState extends MusicBeatState
 					oldNote = unspawnNotes[Std.int(unspawnNotes.length - 1)];
 				else
 					oldNote = null;
-
-				var swagNote:Note = new Note(daStrumTime, daNoteData, oldNote, false);
+				var daType = songNotes[3];
+				var swagNote:Note = new Note(daStrumTime, daNoteData, oldNote, false, daType);
 
 				swagNote.sustainLength = songNotes[2];
 				swagNote.scrollFactor.set(0, 0);
@@ -1523,7 +1523,7 @@ class PlayState extends MusicBeatState
 				{
 					oldNote = unspawnNotes[Std.int(unspawnNotes.length - 1)];
 
-					var sustainNote:Note = new Note(daStrumTime + (Conductor.stepCrochet * susNote) + Conductor.stepCrochet, daNoteData, oldNote, true);
+					var sustainNote:Note = new Note(daStrumTime + (Conductor.stepCrochet * susNote) + Conductor.stepCrochet, daNoteData, oldNote, true, daType);
 					sustainNote.scrollFactor.set();
 					unspawnNotes.push(sustainNote);
 
@@ -2161,6 +2161,7 @@ class PlayState extends MusicBeatState
 		{
 			if (unspawnNotes[0].strumTime - Conductor.songPosition < 1500)
 			{
+				
 				var dunceNote:Note = unspawnNotes[0];
 				renderedNotes.add(dunceNote);
 				hittableNotes.push(dunceNote);
@@ -2319,8 +2320,11 @@ class PlayState extends MusicBeatState
 					}
 					health -= modchart.opponentHPDrain;
 
-						//if(!daNote.isSustainNote){
-
+						if (daNote.noteType == 'gem')
+							if (daNote.isSustainNote)
+								health -= 0.005
+							else
+								health -= 0.03;
 						var anim = "";
 						switch (Math.abs(daNote.noteData))
 						{
@@ -2356,7 +2360,7 @@ class PlayState extends MusicBeatState
 					//}
 					dad.holdTimer = 0;
 
-
+					
 					if (SONG.needsVoices)
 						vocals.volume = 1;
 					daNote.wasGoodHit=true;
@@ -2932,12 +2936,12 @@ class PlayState extends MusicBeatState
 	function noteHit(note:Note):Void
 	{
 		if (!note.wasGoodHit){
-			switch(note.noteType){
+			/*switch(note.noteType){
 				case 0:
 					goodNoteHit(note);
-				default:
+				default:*/
 					goodNoteHit(note);
-			}
+			//}
 			note.wasGoodHit=true;
 			playerStrums.forEach(function(spr:FlxSprite)
 			{
@@ -3037,12 +3041,14 @@ class PlayState extends MusicBeatState
 			lua.call("goodNoteHit",[note.noteData,note.strumTime,Conductor.songPosition,note.isSustainNote]); // TODO: Note lua class???
 		}
 
-
+		
 		if (note.noteData >= 0)
 			health += 0.023;
 		else
 			health += 0.004;
 
+		if (note.noteType == 'gem')
+			health += 0.005;
 		previousHealth=health;
 		if(luaModchartExists && lua!=null)
 			lua.setGlobalVar("health",health);
